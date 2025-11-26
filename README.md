@@ -1,17 +1,39 @@
-# Terminal Typing Logger Demo
+Terminal Key-Logging Demonstration (Ethical & Educational)
 
-This project is a **safe, educational** demonstration of basic key logging concepts.
-It runs in a terminal and records everything the user types into a log file
-called `keylog.txt`, along with timestamps.
+This project is a Python-based terminal key-logging demonstration created as part of my cybersecurity internship at SkillCraft Technology.
+It is designed purely for learning, awareness, and defensive understanding, not for malicious or hidden keylogging.
+The program captures user-entered text inside the terminal only, logs it with timestamps, and saves it to a structured log file.
 
-## How it works
+This repository aims to help security learners understand how logging works, why keyloggers pose a threat, and how to defend against them.
 
-- Prompts the user in the terminal.
-- For each line the user types, the program appends it to `keylog.txt`.
-- The session ends when the user types `EXIT`.
+📌 Project Objectives
+Demonstrate how keystroke logging works in a controlled and ethical environment
+Understand input handling, timestamping, and secure file logging in Python
+Build awareness of how attackers misuse keyloggers
+Encourage safe practices, detection techniques, and defensive strategies
+Provide a clean, professional, beginner-friendly repository for cybersecurity learning
 
-## Ethical note
+🛠️ Features
+📝 Logs user-typed terminal input
+⏱ Adds accurate timestamps for each entry
+📁 Saves logs to a structured text file (keylog.txt)
+📷 Includes PNG assets for documentation and demonstration
+🔒 User-aware and ethical (not hidden, not background-based)
+🧭 Simple and suitable for cybersecurity beginners
 
-This program does **not** run in the background or secretly capture keystrokes.
-It is meant purely to understand input handling and logging. Misuse of
-keylogging techniques for stealing passwords or private data is illegal and unethical.
+🧩 How It Works
+The user runs the Python script in the terminal.
+The script displays a clear message informing the user that input will be logged.
+Each entered line is captured and appended to keylog.txt along with a timestamp.
+The session ends when the user types EXIT.
+This provides a safe and transparent demonstration of the keylogging concept without violating ethical boundaries.
+
+Ethical & Legal Notice
+This project is strictly for educational purposes, demonstrating how keylogging works in a transparent environment.
+It must not be modified or used for:
+- unauthorized data capture
+- spying
+- credential theft
+- surveillance
+- penetration without consent
+- Unauthorized keylogging is illegal and unethical.
